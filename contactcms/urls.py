@@ -6,4 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/contacts/', include('contacts.urls')),  # conecta la app
     path("api/faqs/", include("faqs.urls")),
+    path("api/open/", include("open.urls")),
 ]
