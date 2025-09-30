@@ -19,7 +19,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "contacts",
     "faqs",
-    "open",
+    'recetas',
 ]
 
 MIDDLEWARE = [
