@@ -1,8 +1,7 @@
-# views.py
 from rest_framework import generics
 from .models import Receta
 from .serializers import RecetaSerializer
 
-class RecetaListView(generics.ListAPIView):
+class RecetaListCreateView(generics.ListCreateAPIView):
     queryset = Receta.objects.all()
     serializer_class = RecetaSerializer

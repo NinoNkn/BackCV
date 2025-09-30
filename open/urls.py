@@ -1,7 +1,6 @@
-# urls.py
 from django.urls import path
-from .views import RecetaListView
+from .views import RecetaListCreateView
 
 urlpatterns = [
-    path("recetas/", RecetaListView.as_view(), name="recetas-list"),
+    path('', RecetaListCreateView.as_view(), name='receta-list'),
 ]
