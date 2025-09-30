@@ -5,5 +5,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/contacts/', include('contacts.urls')),  # conecta la app
-    path("api/faq/", include("faq.urls")),
+    path("api/faq/", include("faqs.urls")),
 ]
