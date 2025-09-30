@@ -2,6 +2,6 @@ from rest_framework import generics
 from .models import FAQ
 from .serializers import FAQSerializer
 
-class FAQListView(generics.ListAPIView):
+class FAQListCreateView(generics.ListCreateAPIView):
     queryset = FAQ.objects.all()
     serializer_class = FAQSerializer
