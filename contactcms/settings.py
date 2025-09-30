@@ -71,7 +71,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5500",
 ]
 CSRF_TRUSTED_ORIGINS = [
-    "https://ninonkn.github.io/",
+    "https://ninonkn.github.io",
 ]
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
